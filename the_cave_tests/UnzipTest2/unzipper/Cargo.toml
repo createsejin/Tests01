@@ -1,0 +1,8 @@
+[package]
+name = "unzipper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+unrar = "0.5.3"
+humansize = "2.1.3"

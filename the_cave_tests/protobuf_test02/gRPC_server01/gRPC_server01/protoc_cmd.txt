@@ -1,0 +1,2 @@
+protoc -I=. --cpp_out=. messenger.proto
+protoc -I=. --grpc_out=. --plugin=protoc-gen-grpc="/c/Users/creat/vcpkg/installed/x64-windows/tools/grpc/grpc_cpp_plugin.exe" messenger.proto

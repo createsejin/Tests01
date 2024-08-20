@@ -1,0 +1,4 @@
+[workspace]
+memebers = ["unzipper"]
+default-memebers = ["unzipper"]
+resolver = "2"

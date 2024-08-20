@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "file_analysis_test": {
+      "commandName": "Project",
+      "commandLineArgs": "test002"
+    }
+  }
+}

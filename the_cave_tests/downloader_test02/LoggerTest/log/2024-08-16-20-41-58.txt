@@ -1,0 +1,2 @@
+[2024-08-16 오후 8:41:58][Info] logger test test
+[2024-08-16 오후 8:41:58][Debug] total_console_width = 188

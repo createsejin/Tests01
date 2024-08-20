@@ -1,0 +1,2 @@
+bz x -y -cp:65001 -consolemode:utf8 -storeroot:yes -o:"target" "RJ01182655.part1.exe"
+x -y -cp:65001 -consolemode:utf8 -storeroot:yes -o:"{0}" "{1}"
