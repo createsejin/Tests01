@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MauiApp3"
     Shell.FlyoutBehavior="Disabled"
-    Title="MauiApp3">
+    Title="TheCave">
 
     <ShellContent
         Title="Home"

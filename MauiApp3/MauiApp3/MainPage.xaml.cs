@@ -1,4 +1,6 @@
-﻿namespace MauiApp3;
+﻿using SharedLib;
+
+namespace MauiApp3;
 
 public partial class MainPage : ContentPage
 {
@@ -7,6 +9,10 @@ public partial class MainPage : ContentPage
   public MainPage()
   {
     InitializeComponent();
+    // var fileUtils = Application.Current?.MainPage?.Handler?.MauiContext?
+    //   .Services.GetService<IFileUtils>();
+    // if (fileUtils is null) return;
+    // Console.WriteLine("Get fileUtils instance reference");
   }
 
   private void OnCounterClicked(object sender, EventArgs e)
@@ -18,9 +24,12 @@ public partial class MainPage : ContentPage
       CounterBtn.Text = $"Clicked {_count} time";
     }
     else
-{
+    {
       CounterBtn.Text = $"Clicked {_count} times";
-}
+    }
+    Console.WriteLine($"Cilck CounterBtn count = {_count}");
+    /*
+    OnCounterClicked @#main*/
 
     SemanticScreenReader.Announce(CounterBtn.Text);
   }
