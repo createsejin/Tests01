@@ -1,4 +1,5 @@
-﻿using SharedLib;
+﻿using Serilog;
+using SharedLib;
 
 namespace MauiApp3;
 
@@ -31,6 +32,7 @@ public partial class MainPage : ContentPage
       CounterBtn.Text = $"Clicked {_count} times";
     }
     Console.WriteLine($"Cilck CounterBtn count = {_count}");
+    Log.Debug("Cilck CounterBtn count = {_count}", _count);
     /*
     OnCounterClicked @#main*/
 
