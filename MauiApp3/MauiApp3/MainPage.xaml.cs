@@ -9,10 +9,13 @@ public partial class MainPage : ContentPage
   public MainPage()
   {
     InitializeComponent();
-    // var fileUtils = Application.Current?.MainPage?.Handler?.MauiContext?
-    //   .Services.GetService<IFileUtils>();
-    // if (fileUtils is null) return;
-    // Console.WriteLine("Get fileUtils instance reference");
+    var fileUtils = Application.Current?.MainPage?.Handler?.MauiContext?
+      .Services.GetService<IFileUtils>();
+    if (fileUtils is null) return;
+    Console.WriteLine("Get fileUtils instance reference");
+    /*
+    GetServiceFromAppHandler @#main
+    MainPage @#main*/
   }
 
   private void OnCounterClicked(object sender, EventArgs e)
